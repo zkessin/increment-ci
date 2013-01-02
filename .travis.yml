@@ -1,4 +1,4 @@
 language    : erlang
 script      : rebar compile && rebar eunit
 otp_release :
-  - R15B03
+  - R15B02
