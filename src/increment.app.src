@@ -1,0 +1,12 @@
+{application, increment,
+ [
+  {description, ""},
+  {vsn, "1"},
+  {registered, []},
+  {applications, [
+                  kernel,
+                  stdlib
+                 ]},
+  {mod, { increment_app, []}},
+  {env, []}
+ ]}.
